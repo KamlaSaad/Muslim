@@ -1,4 +1,3 @@
-# shopping_list
+# Muslim
 
-a project that describes how to create a simple shopping list project using Flutter with a local database
-
+Muslim is mobile appplication helps muslims to remember and make their prayers eaisly
