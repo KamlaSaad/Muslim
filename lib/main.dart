@@ -132,15 +132,15 @@ class _MyHomePageState extends State<MyHomePage> {
   notify() async {
     var now = "${DateTime.now().hour}:${DateTime.now().minute}";
     if (now == "11:44") {
-      int result = await notification(" سيحين اذان الفجر بعد خمس دقائق");
+      int result = await notification(" اقترب موعد اذان الفجر");
     } else if (now == "11:55") {
-      int result = await notification("سيحين اذان الظهر بعد خمس دقائق ");
+      int result = await notification("اقترب موعد اذان الظهر ");
     } else if (now == "15:30") {
-      int result = await notification("سيحين اذان العصر بعد خمس دقائق");
+      int result = await notification("اقترب موعد اذان العصر");
     } else if (now == "18:40") {
-      int result = await notification(" سيحين اذان المغرب بعد خمس دقائق");
+      int result = await notification(" اقترب موعد اذان المغرب ");
     } else if (now == "20:0") {
-      int result = await notification(" سيحين العشاء بعد خمس دقائق ");
+      int result = await notification(" اقترب موعد اذان العشاء ");
     }
   }
 
