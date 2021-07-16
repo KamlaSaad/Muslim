@@ -10,7 +10,8 @@ Color bodyColor = Color(0x34343434),
     textColor = Colors.white,
     mainColor = Colors.blueGrey,
     shadowColor = Color(0x00000000),
-    greyColor = Color(0x66666666);
+    greyColor = Color(0x66666666),
+    blackColor = Color(0x11111111);
 String mood = "dark";
 void dark() {
   bodyColor = Color(0x34343434);
